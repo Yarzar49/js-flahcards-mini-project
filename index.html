@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container pt-5">
+            <div class="nav">
+                <h1>Flashcards</h1>            
+            <div class="ms-auto">
+                <button id="new_card" class="btn btn-primary">New Card</button>
+                <button id="delete_card" class="btn btn-danger">Delete Cards</button>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="create-box mt-3 bg-dark justify-content-center p-3">
+            <h2 class="text-center text-white">Create Flashcard</h2> 
+            <div class="mt-5">
+                <label for="question" class="text-white">Question</label>
+                <textarea name="ques" id="question"></textarea>
+                <br>
+                <br>
+                <label for="answer" class="text-white">&nbsp;&nbsp;Answer</label>
+                <textarea name="ans" id="answer"></textarea>
+                <br>
+            </div>         
+    
+            <div class="mt-3 text-center ms-4">
+            <button id="save_btn" class="btn btn-primary">Save</button>
+            <button id="close_btn" class="btn btn-danger">Close</button>
+            </div>    
+        </div>
+    <div class="flashcards">
+
+    </div>
+
+    </div>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
